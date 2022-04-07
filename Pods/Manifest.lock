@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.9.1)
+  - CSVImporter (1.9.1):
+    - HandySwift (~> 2.5)
+  - HandySwift (2.8.0)
+  - SwiftCSVExport (2.6.0)
+  - SwiftyDropbox (7.0.1):
+    - Alamofire (~> 4.9.1)
+
+DEPENDENCIES:
+  - CSVImporter
+  - SwiftCSVExport
+  - SwiftyDropbox
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CSVImporter
+    - HandySwift
+    - SwiftCSVExport
+    - SwiftyDropbox
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CSVImporter: 1543192354ecf8abccd2cc77947d190fd9cf2b18
+  HandySwift: 0a32500215166a56a58f972f7ce1641361307e8b
+  SwiftCSVExport: d9db3fb80484115028792f8d539445e3fb2c0ecb
+  SwiftyDropbox: e38f83d00b189930edc645b3b955c18133c6a13d
+
+PODFILE CHECKSUM: f25910b97a29ee9061d5b138c7219c510b0e3751
+
+COCOAPODS: 1.9.3

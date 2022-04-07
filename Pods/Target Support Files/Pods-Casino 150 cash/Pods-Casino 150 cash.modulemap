@@ -1,0 +1,6 @@
+framework module Pods_Casino_150_cash {
+  umbrella header "Pods-Casino 150 cash-umbrella.h"
+
+  export *
+  module * { export * }
+}

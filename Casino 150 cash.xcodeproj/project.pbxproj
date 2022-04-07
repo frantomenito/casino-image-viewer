@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141BB05326BE9FE00035AFDE /* Dropbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141BB05226BE9FE00035AFDE /* Dropbox.swift */; };
+		147F010926AEBF6200BBC879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F010826AEBF6200BBC879 /* AppDelegate.swift */; };
+		147F010B26AEBF6200BBC879 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F010A26AEBF6200BBC879 /* SceneDelegate.swift */; };
+		147F010D26AEBF6200BBC879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F010C26AEBF6200BBC879 /* ViewController.swift */; };
+		147F011026AEBF6200BBC879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147F010E26AEBF6200BBC879 /* Main.storyboard */; };
+		147F011226AEBF6A00BBC879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147F011126AEBF6A00BBC879 /* Assets.xcassets */; };
+		147F011526AEBF6B00BBC879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147F011326AEBF6B00BBC879 /* LaunchScreen.storyboard */; };
+		147F011D26AECF9A00BBC879 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F011C26AECF9A00BBC879 /* MainViewController.swift */; };
+		147F011F26B0644900BBC879 /* ExcelDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F011E26B0644900BBC879 /* ExcelDecoder.swift */; };
+		147F012426B1FA7300BBC879 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F012326B1FA7300BBC879 /* GameController.framework */; };
+		147F012626B1FA7500BBC879 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F012526B1FA7500BBC879 /* HealthKit.framework */; };
+		147F012826B1FA7700BBC879 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F012726B1FA7700BBC879 /* HomeKit.framework */; };
+		147F012A26B1FA7A00BBC879 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F012926B1FA7A00BBC879 /* AudioToolbox.framework */; };
+		147F012C26B1FA7E00BBC879 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F012B26B1FA7E00BBC879 /* MapKit.framework */; };
+		147F012E26B1FA8000BBC879 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147F012D26B1FA8000BBC879 /* ExternalAccessory.framework */; };
+		147F013026B1FE0C00BBC879 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 147F012F26B1FE0C00BBC879 /* Property List.plist */; };
+		35B402F4D694E3C6EC8FBDD2 /* Pods_Casino_150_cash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EF97FAF6FE6B6D4105DA22 /* Pods_Casino_150_cash.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		141BB05226BE9FE00035AFDE /* Dropbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dropbox.swift; sourceTree = "<group>"; };
+		147F010526AEBF6200BBC879 /* Casino 150 cash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Casino 150 cash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		147F010826AEBF6200BBC879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		147F010A26AEBF6200BBC879 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		147F010C26AEBF6200BBC879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		147F010F26AEBF6200BBC879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		147F011126AEBF6A00BBC879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		147F011426AEBF6B00BBC879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		147F011626AEBF6B00BBC879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147F011C26AECF9A00BBC879 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		147F011E26B0644900BBC879 /* ExcelDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcelDecoder.swift; sourceTree = "<group>"; };
+		147F012326B1FA7300BBC879 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		147F012526B1FA7500BBC879 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		147F012726B1FA7700BBC879 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		147F012926B1FA7A00BBC879 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		147F012B26B1FA7E00BBC879 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		147F012D26B1FA8000BBC879 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		147F012F26B1FE0C00BBC879 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		42E8BA0DED2229040E32645E /* Pods-Casino 150 cash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Casino 150 cash.debug.xcconfig"; path = "Target Support Files/Pods-Casino 150 cash/Pods-Casino 150 cash.debug.xcconfig"; sourceTree = "<group>"; };
+		55EF97FAF6FE6B6D4105DA22 /* Pods_Casino_150_cash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Casino_150_cash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		996D8D0787B68F243F3144D0 /* Pods-Casino 150 cash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Casino 150 cash.release.xcconfig"; path = "Target Support Files/Pods-Casino 150 cash/Pods-Casino 150 cash.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		147F010226AEBF6200BBC879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F012626B1FA7500BBC879 /* HealthKit.framework in Frameworks */,
+				147F012426B1FA7300BBC879 /* GameController.framework in Frameworks */,
+				147F012A26B1FA7A00BBC879 /* AudioToolbox.framework in Frameworks */,
+				147F012826B1FA7700BBC879 /* HomeKit.framework in Frameworks */,
+				147F012E26B1FA8000BBC879 /* ExternalAccessory.framework in Frameworks */,
+				147F012C26B1FA7E00BBC879 /* MapKit.framework in Frameworks */,
+				35B402F4D694E3C6EC8FBDD2 /* Pods_Casino_150_cash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147F00FC26AEBF6200BBC879 = {
+			isa = PBXGroup;
+			children = (
+				147F012F26B1FE0C00BBC879 /* Property List.plist */,
+				147F010726AEBF6200BBC879 /* Casino 150 cash */,
+				147F010626AEBF6200BBC879 /* Products */,
+				47E8429BAEFD5604032FF3B9 /* Pods */,
+				DBF670C06C1A545BAD552937 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		147F010626AEBF6200BBC879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				147F010526AEBF6200BBC879 /* Casino 150 cash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		147F010726AEBF6200BBC879 /* Casino 150 cash */ = {
+			isa = PBXGroup;
+			children = (
+				147F010826AEBF6200BBC879 /* AppDelegate.swift */,
+				147F010A26AEBF6200BBC879 /* SceneDelegate.swift */,
+				147F010C26AEBF6200BBC879 /* ViewController.swift */,
+				147F011C26AECF9A00BBC879 /* MainViewController.swift */,
+				147F011E26B0644900BBC879 /* ExcelDecoder.swift */,
+				141BB05226BE9FE00035AFDE /* Dropbox.swift */,
+				147F010E26AEBF6200BBC879 /* Main.storyboard */,
+				147F011126AEBF6A00BBC879 /* Assets.xcassets */,
+				147F011326AEBF6B00BBC879 /* LaunchScreen.storyboard */,
+				147F011626AEBF6B00BBC879 /* Info.plist */,
+			);
+			path = "Casino 150 cash";
+			sourceTree = "<group>";
+		};
+		47E8429BAEFD5604032FF3B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42E8BA0DED2229040E32645E /* Pods-Casino 150 cash.debug.xcconfig */,
+				996D8D0787B68F243F3144D0 /* Pods-Casino 150 cash.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DBF670C06C1A545BAD552937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				147F012D26B1FA8000BBC879 /* ExternalAccessory.framework */,
+				147F012B26B1FA7E00BBC879 /* MapKit.framework */,
+				147F012926B1FA7A00BBC879 /* AudioToolbox.framework */,
+				147F012726B1FA7700BBC879 /* HomeKit.framework */,
+				147F012526B1FA7500BBC879 /* HealthKit.framework */,
+				147F012326B1FA7300BBC879 /* GameController.framework */,
+				55EF97FAF6FE6B6D4105DA22 /* Pods_Casino_150_cash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		147F010426AEBF6200BBC879 /* Casino 150 cash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147F011926AEBF6B00BBC879 /* Build configuration list for PBXNativeTarget "Casino 150 cash" */;
+			buildPhases = (
+				FB6D7B9753F0A97B634F1A05 /* [CP] Check Pods Manifest.lock */,
+				147F010126AEBF6200BBC879 /* Sources */,
+				147F010226AEBF6200BBC879 /* Frameworks */,
+				147F010326AEBF6200BBC879 /* Resources */,
+				0AEC6303696F0FD8265D38B2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Casino 150 cash";
+			productName = "Casino 150 cash";
+			productReference = 147F010526AEBF6200BBC879 /* Casino 150 cash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147F00FD26AEBF6200BBC879 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					147F010426AEBF6200BBC879 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 147F010026AEBF6200BBC879 /* Build configuration list for PBXProject "Casino 150 cash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 147F00FC26AEBF6200BBC879;
+			productRefGroup = 147F010626AEBF6200BBC879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				147F010426AEBF6200BBC879 /* Casino 150 cash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		147F010326AEBF6200BBC879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F011526AEBF6B00BBC879 /* LaunchScreen.storyboard in Resources */,
+				147F011226AEBF6A00BBC879 /* Assets.xcassets in Resources */,
+				147F013026B1FE0C00BBC879 /* Property List.plist in Resources */,
+				147F011026AEBF6200BBC879 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AEC6303696F0FD8265D38B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Casino 150 cash/Pods-Casino 150 cash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Casino 150 cash/Pods-Casino 150 cash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Casino 150 cash/Pods-Casino 150 cash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB6D7B9753F0A97B634F1A05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Casino 150 cash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		147F010126AEBF6200BBC879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147F010D26AEBF6200BBC879 /* ViewController.swift in Sources */,
+				147F010926AEBF6200BBC879 /* AppDelegate.swift in Sources */,
+				141BB05326BE9FE00035AFDE /* Dropbox.swift in Sources */,
+				147F010B26AEBF6200BBC879 /* SceneDelegate.swift in Sources */,
+				147F011F26B0644900BBC879 /* ExcelDecoder.swift in Sources */,
+				147F011D26AECF9A00BBC879 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		147F010E26AEBF6200BBC879 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147F010F26AEBF6200BBC879 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		147F011326AEBF6B00BBC879 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147F011426AEBF6B00BBC879 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147F011726AEBF6B00BBC879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = f;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		147F011826AEBF6B00BBC879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = f;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147F011A26AEBF6B00BBC879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E8BA0DED2229040E32645E /* Pods-Casino 150 cash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Casino 150 cash/Casino 150 cash.entitlements";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC2QND8GZ3;
+				INFOPLIST_FILE = "Casino 150 cash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DM.Casino-150-cash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		147F011B26AEBF6B00BBC879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996D8D0787B68F243F3144D0 /* Pods-Casino 150 cash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Casino 150 cash/Casino 150 cash.entitlements";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UC2QND8GZ3;
+				INFOPLIST_FILE = "Casino 150 cash/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DM.Casino-150-cash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		147F010026AEBF6200BBC879 /* Build configuration list for PBXProject "Casino 150 cash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147F011726AEBF6B00BBC879 /* Debug */,
+				147F011826AEBF6B00BBC879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147F011926AEBF6B00BBC879 /* Build configuration list for PBXNativeTarget "Casino 150 cash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147F011A26AEBF6B00BBC879 /* Debug */,
+				147F011B26AEBF6B00BBC879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 147F00FD26AEBF6200BBC879 /* Project object */;
+}
