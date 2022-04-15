@@ -1,4 +1,4 @@
-# casino-image-viewer
+# casino-image-viewer For IPad
 i made this up to speed up proccess of checking casino game images. It is not clean and does not work perfrectly, but good enough. 
 How it works.
 You need to log in to dropbox account in the main menu.
